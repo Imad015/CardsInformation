@@ -29,7 +29,7 @@ void writeInformation(informationInfo person){
 
 void readInformationtoArray(informationInfo arr[],int numberOfCards){
     for(int i =0; i<numberOfCards;i++){
-        cout<<"Person "<<i<<": \n";
+        cout<<"Person "<<i+1<<": \n";
         readInformation(arr[i]);
 
     }
@@ -38,7 +38,7 @@ void readInformationtoArray(informationInfo arr[],int numberOfCards){
 
 void writeInformationtoArray(informationInfo arr[],int numberOfCards){
     for(int i=0;i<numberOfCards;i++){
-            cout<<"Person "<<i<<": \n";
+            cout<<"Person "<<i+1<<": \n";
             writeInformation(arr[i]);
     }
 
